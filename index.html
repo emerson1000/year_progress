@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <title>Porcentaje del Año</title>
+    <title>Year Progress</title>
     <style>
         body {
             font-family: 'Roboto', sans-serif;
@@ -109,8 +109,8 @@
             const userLang = (navigator.language || 'en').slice(0, 2);
             const messages = {
                 es: {
-                    title: 'Porcentaje del Año',
-                    message: `Hoy es ${now.toLocaleDateString('es-ES', { dateStyle: 'full' })} y llevamos un ${percentage.toFixed(6)}% del año.`
+                    title: 'Year Progress Percentage',
+                    message: `Today is ${now.toLocaleDateString('es-ES', { dateStyle: 'full' })} and we have completed ${percentage.toFixed(6)}% of the year.`
                 },
                 en: {
                     title: 'Year Progress Percentage',
